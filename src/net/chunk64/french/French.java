@@ -17,6 +17,20 @@ public class French
 
 	public static void loadVocab()
 	{
+		System.out.print("Enter the absolute path to where your vocab file will be created.\n >");
+
+		String input;
+
+		while (true)
+		{
+			input = Game.scanner.nextLine();
+			file = new File(input);
+			if (file.exists())
+				break;
+			else
+				System.out.println("File not found!");
+		}
+
 		file = new File("C:\\Users\\dominic\\IdeaProjects\\French\\src\\net\\chunk64\\french\\vocab.txt");
 		System.out.println(file.getAbsolutePath());
 		try

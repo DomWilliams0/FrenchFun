@@ -8,7 +8,7 @@ public class Game implements Runnable
 	private boolean running = false;
 	public static StatsManager stats = new StatsManager();
 
-	private Scanner scanner = new Scanner(System.in);
+	public static Scanner scanner = new Scanner(System.in);
 
 	public void start()
 	{
@@ -56,7 +56,7 @@ public class Game implements Runnable
 
 			// Check answer
 			correct = vocab.isCorrect(question, input);
-
+			System.out.println();
 			French.log((correct ? "Well done, you're correct!" : "Ah crap, you're wrong! The answer was \"" + vocab.getAnswer(question) + "\"") + "\n");
 
 			stats.increment(correct);
