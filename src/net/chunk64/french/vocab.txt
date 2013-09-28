@@ -1,0 +1,14 @@
+# Please enter vocab in format 'm/f:french:english', or just french:english if it is not a noun
+# Add as many as you want!
+m:chien:dog
+f:table:table
+être:to be
+vous:you
+tu:you
+faire:to do
+il faut que l'on fasse:it is necessary that one does
+avoir:to have
+bonjour:hello
+bonsoir:good evening
+salut:hi
+manger:to eat
