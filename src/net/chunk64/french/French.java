@@ -31,7 +31,6 @@ public class French
 				System.out.println("File not found!");
 		}
 
-		System.out.println(file.getAbsolutePath());
 		try
 		{
 			if (!file.exists())
