@@ -31,7 +31,6 @@ public class French
 				System.out.println("File not found!");
 		}
 
-		file = new File("C:\\Users\\dominic\\IdeaProjects\\French\\src\\net\\chunk64\\french\\vocab.txt");
 		System.out.println(file.getAbsolutePath());
 		try
 		{
